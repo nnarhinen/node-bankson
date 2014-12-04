@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/nnarhinen/node-bankson/issues"
   },
-  "homepage": "https://github.com/nnarhinen/node-bankson"
+  "homepage": "https://github.com/nnarhinen/node-bankson",
+  "dependencies": {
+    "axios": "^0.4.1",
+    "bluebird": "^2.3.11",
+    "es6-promise": "^2.0.0",
+    "moment": "^2.8.4",
+    "simple-oauth2": "^0.2.1"
+  },
+  "jshintConfig": {
+    "node": true
+  }
 }
